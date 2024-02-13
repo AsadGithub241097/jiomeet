@@ -1,0 +1,163 @@
+.side-bar {
+  width: 64px;
+  height: 100%;
+  flex-shrink: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #212f58;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sb {
+  display: flex;
+}
+
+.BG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../logo/BG.svg);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  margin-top: 26px;
+  margin-left: 12px;
+}
+
+/* .BG:hover {
+  transform: scale(1.5);     Zoom status for hover 
+} */
+
+.Chat {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ChatIcon {
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+
+  &:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+      hue-rotate(150deg) brightness(107%) contrast(101%);
+  }
+}
+
+.SideBarCalender {
+  display: flex;
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+}
+.SideBarCalender:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+    hue-rotate(150deg) brightness(107%) contrast(101%);
+  /* transform: scale(1.5); */
+}
+
+.voiceCall {
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+}
+.voiceCall:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+    hue-rotate(150deg) brightness(107%) contrast(101%);
+}
+
+.widgets {
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+}
+.widgets:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+    hue-rotate(150deg) brightness(107%) contrast(101%);
+}
+
+.HashSVG {
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+}
+.HashSVG:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+    hue-rotate(150deg) brightness(107%) contrast(101%);
+}
+
+.Switcher {
+  width: 22px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 21px;
+}
+.Switcher:hover {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(93%) saturate(2%)
+    hue-rotate(150deg) brightness(107%) contrast(101%);
+}
+
+.line {
+  width: 40px;
+  border-radius: 250px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 20.75px;
+  /* margin: 25.5px 10px 0px 10px; */
+}
+
+.DarkmodeToLightmode {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle {
+  display: flex;
+  width: 56px;
+  transform: rotate(90deg);
+  padding: 4px 7px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 16px;
+}
+
+.moonCSS {
+  width: 24px;
+  height: 24px;
+}
+
+.profileDIV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  color: #2e2e30;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.06px;
+  background-image: url(../SideBarIcons/profileBackground.svg);
+  margin: 0px 16px 14px 16px;
+}
